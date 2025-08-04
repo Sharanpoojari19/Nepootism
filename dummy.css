@@ -1,0 +1,85 @@
+body{
+    
+    background-color: skyblue;
+}
+
+
+
+/* payment */
+
+.payment{
+    width:500px;
+    height: 500px;
+    background-color:#fff ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto; 
+    padding: 10px 30px;
+    display: none;
+    flex-direction: column;
+    box-shadow:0px 0px 13px 2px rgb(0, 0, 0);
+}
+
+.paytitle{
+   font-size: 25px;
+   color: #7d7a7a;
+   padding-top: 0;
+}
+label{
+    font-size: 14px;
+    font-weight: 300;
+    color: #8d8b8b;
+}
+.paymentinput{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid #a9a7a7;
+}
+.paymentinput::placeholder{
+    color: rgb(153, 152, 152);
+}
+.cardicons{
+    display: flex;
+}
+.cardicon{
+    margin: 2px;
+    padding-bottom:2px ;
+}
+.cartdinfo{
+    display: flex;
+    justify-content: space-between;
+}
+.sm{
+    width: 25%;
+} 
+.paybutton{
+    position: absolute;
+    height: 40px;
+    bottom: -7%;
+    left: 0;
+    width: 100%;
+    box-shadow:0px 0px 13px 2px rgb(0, 0, 0);
+    background-color: #27b737;
+    columns: #fff;
+    border: none;
+    cursor: pointer;
+}
+.close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: gray;
+    color: #fff;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2px;
+
+}
